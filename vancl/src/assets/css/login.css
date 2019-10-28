@@ -1,0 +1,238 @@
+*{margin:0;padding:0}
+a{text-decoration:none;}
+a:hover{
+color: #CC0000;
+text-decoration: underline;}
+.wrapper{
+  width:1200px;
+  border-bottom:1px solid #999;
+  margin:50px auto 10px;
+}
+.clearfix::after{
+  content:"";
+  height:0;
+  display:block;
+  clear:both;
+  visibility:hidden;
+}
+.loginTitle{
+  width:100%;
+  height:25px;
+  position:relative;
+}
+.loginTitle>h3{
+  font-size:22px;
+  color:#979797;
+  font-weight:bolder;
+  text-align:left;
+  height:25px;
+  line-height:25px;
+  float:right;
+  margin:0 100px 0 0;
+  width:400px;
+  position:relative;
+}
+.loginTitle>h3>span{
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  right:0px;
+  bottom:0px;
+}
+.loginTitle>h3>span>a{
+  color:#b42025;
+  margin:0px;
+}
+.login{
+  width:400px;
+  border:1px solid #d1d1d1;
+  background-color:#fff;
+  float:right;
+  margin-top:18px;
+  margin-bottom:20px;
+  margin-right:100px;
+}
+.login>.tag{
+  width:400px;
+  height:35px;
+  line-height:35px;
+  border-bottom:1px solid #cbcbcb;
+}
+.login>.tag li{
+  width:200px;
+  height:35px;
+  line-height:35px;
+  float:left;
+  text-align:center;
+  background:#f5f5f5;
+  color:#656565;
+  cursor:pointer;
+  font-size:14px;
+}
+.login>.tag li.on{
+  width:200px;
+  height:35px;
+  line-height:35px;
+  float:left;
+  text-align:center;
+  background:#b42025;
+  color:#fff;
+  font-weight:bolder;
+}
+.user_infor{
+  width:415px;
+  padding:10px 20px 10px;
+}
+.glup{
+  width:360px;
+  height:auto;
+  margin:10px auto;
+}
+.newtxt{
+  height:45px;
+  width:360px;
+  border:solid 1px #cbcbcb;
+  position:relative;
+  overflow:hidden;
+}
+.newtxt:first-child{
+  margin-top:15px;
+}
+.newtxt input{
+  height:45px;
+  line-height:45px;
+  color:#656565;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100%;
+  display:block;
+  text-indent:10px;
+  z-index:9;
+  border:0 none;
+  font-size:14px;
+}
+.tips{
+  clear: both;
+  width: 220px;
+  min-height: 16px;
+  line-height: 16px;
+  color: #A10000;
+  text-indent: 30px;
+  background: url(../../../public/img/spritesbg.png) -351px -662px no-repeat;
+  background-color: #FFF6F7;
+  border: 1px solid #CC9998;
+  margin-left: 48px;
+  display: block;
+  visibility: hidden;
+}
+.bt{
+  position: relative;
+  top:15px;
+  width:360px;
+}
+.bt span{
+  float:left;
+  font-size:14px;
+  line-height:30px;
+  color:#919191;
+}
+.bt a.forget{
+  line-height:30px;
+  color:#b42025;
+  font-size:14px;
+  font-weight:bolder;
+  float:right;
+}
+.bt a.log{
+  clear:both;
+  width:100%;
+  display:block;
+  height:45px;
+  line-height:45px;
+  background: #b42025;
+  color:#fff;
+  text-align:center;
+  font-size:20px;
+}
+.glup{
+  margin:10px auto;
+  width:100%;
+  height:115px;
+  border-top:1px dotted #909090;
+  position: relative;
+  top:30px;
+}
+.hezuo {
+  color: #a4a4a4;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bolder;
+  margin:17px 0 10px 18px;
+}
+.qkimg a {
+  width: 33px;
+  height: 33px;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0px;
+  background: url(http://i1.vanclimg.com/cms/20160118/logos.jpg) no-repeat left center;
+}
+.qkimg a:first-child{
+  margin-left:17px;
+}
+.qkimg a.xiaomi {
+  background-position: -147px 0px;
+}
+.qkimg a.zhifubao {
+  background-position: -48px 0px;
+}
+.qkimg a.qq {
+    background-position: -189px 0px;
+}
+.qkimg a.qihu360 {
+  background-position: -228px 0px;
+}
+.qkimg a.weibo {
+  background-position: -93px 0px;
+  width: 36px;
+}
+a.asPhoneregBtn {
+  width: 97px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  background: #f5f5f5;
+  color: #b52024!important;
+  border: solid 1px #cbcbcb;
+  display: block;
+  float: left;
+  margin: 15px 0 0 10px;
+  font-weight: bolder;
+  font-size:12px; 
+}
+.phoneReg{
+  width:250px;
+  float:left;
+}
+input.phoneMa{
+  width:142px;
+  height:43px;
+  line-height:43px;
+  border:1px solid #cbcbcb;
+  z-index:10;
+}
+img.Mapic{
+  vertical-align: middle;
+    width: 140px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 137px;
+}
+.changeMapic{
+  cursor: pointer;
+  float: right;
+  line-height: 18px;
+  font-size:12px;
+}

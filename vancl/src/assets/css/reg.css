@@ -1,0 +1,163 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+div.parent{
+  width:1200px;
+  margin:auto;
+  height:100%;
+  font-family:"Microsoft Yahei"!important;
+  color: #000;
+}
+div.header{
+  margin:10px 0 0 0;
+  padding:0 0 6px 0;
+  border-bottom:solid 1px #919191;
+}
+div.header>img{
+  cursor:pointer;
+  border:none;
+}
+.content_right img{
+  margin-left:110px;
+}
+.regist{
+  width:100%;
+  margin-top:45px;
+}
+.regist h1{
+  height:35px;
+  width:415px;
+  float:right;
+  line-height:35px;
+  margin-right:100px;
+  border-bottom:2px solid #b81e20;
+  font-size:20px;
+  color:#a2a2a2;
+  font-weight:bolder;
+}
+.regist h1 span{
+  font-size:14px;
+  float:right;
+}
+.regist h1 span a{
+   color:#b52024;
+   margin:0 0 0 3px;
+}
+.v2reg_Safetyinfo{
+  float:left;
+  line-height:22px;
+  color:#666;
+}
+.v2regfl,.v2regimg_01{
+  float:left;
+}
+.v2regimg_03{
+  width:140px;
+  float:left;
+  height:12px;
+  overflow:hidden;
+  background:url(https://ssl.vanclimg.com/login/sprite_a.png) no-repeat 0 -1139px;
+  margin-top:5px;
+  margin-right:5px;
+}
+.v2regimg_01{
+  width:140px;
+  float:left;
+  height:12px;
+  overflow:hidden;
+  background:url(https://ssl.vanclimg.com/login/sprite_a.png) no-repeat 0 -1097px;
+  margin-top:5px;
+  margin-right:5px;
+}
+.v2regimg_02{
+  width:140px;
+  float:left;
+  height:12px;
+  overflow:hidden;
+  background:url(https://ssl.vanclimg.com/login/sprite_a.png) no-repeat 0 -1117px;
+  margin-top:5px;
+  margin-right:5px;
+}
+.v2reg_Class {
+  float: left;
+}
+.content_left{
+  width:415px;
+  float:right;
+  margin:10px 95px 0 0;
+}
+.content_left .infor{
+  width:415px;
+  zoom:1;
+  overflow:hidden;
+}
+ul,ol,li{
+  list-style:none;
+}
+#v2regListInfo_bar li{
+  clear:both;
+  height:43px;
+  margin-top:15px;
+}
+.v2reg_bg1{
+  border:1px solid #fff;
+  zoom:1;
+  display:block;
+}
+#v2regListInfo_bar li>input{
+  width:260px;
+  height:43px;
+  line-height:43px;
+  border:1px solid rgb(203,203,203);
+  z-index:10;
+}
+.v2reg_tips02 {
+  color: #a10000;
+  border: 1px #ffd5d5 solid;
+  padding: 2px 5px;
+  position: relative;
+  left: 0px;
+  z-index: 55;
+  background: #f9f9f9;
+  top: -1px;
+  display: inline-block;
+}
+#v2regListInfo_bar li:first-child>img{
+  cursor:pointer;
+  vertical-align:middle;
+  width:140px;
+  height:45px;
+  margin-left:8px;
+}
+.regist input{
+  box-sizing:border-box;
+  padding:8px;
+}
+.asPhoneregBtn{
+  width:144px;
+  text-align:center;
+  line-height:42px;
+  background: #f5f5f5;
+  color:#b52024!important;
+  border:solid 1px #cbcbcb;
+  margin-left:8px;
+  outline:none;
+  cursor:pointer;
+}
+.inputLong{
+  width:100% !important;
+}
+.submitStyle{
+  height:45px;
+  line-height: 45px;
+  text-align:center;
+  background: #9A9A9A;
+  border:0;
+  color:#fff;
+  cursor: pointer;
+  font-size:16px;
+  font-weight:bolder;
+}
+.checked{
+  background: #b52024;
+  color: #FFFFFF;
+}
